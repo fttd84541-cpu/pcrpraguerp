@@ -1,0 +1,114 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f1720;
+color: #e6edf3;
+}
+
+/* HEADER */
+header {
+background: #0b1f33;
+color: white;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+font-weight: bold;
+font-size: 16px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 12px;
+font-weight: 600;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+background: #142a3d;
+padding: 40px 20px;
+text-align: center;
+}
+
+.hero img {
+margin-bottom: 10px;
+}
+
+/* HLAVNÍ LAYOUT - MOBILNÍ STYL (VŠE POD SEBOU) */
+.info {
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding: 20px;
+max-width: 900px;
+margin: auto;
+}
+
+/* KARTY */
+.card {
+background: #1b2a3a;
+padding: 18px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+border-left: 4px solid #2f6fed;
+}
+
+.card h2 {
+margin-top: 0;
+color: #ffffff;
+}
+
+.card img {
+width: 100%;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+/* AKCE BOXY */
+.actions {
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding: 20px;
+max-width: 900px;
+margin: auto;
+}
+
+.box {
+background: #132233;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+border: 1px solid #22364a;
+}
+
+.box a {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 15px;
+background: #2f6fed;
+color: white;
+text-decoration: none;
+border-radius: 6px;
+}
+
+.box a:hover {
+background: #1f5ad6;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 20px;
+background: #0b1f33;
+color: #9fb3c8;
+margin-top: 30px;
+}
