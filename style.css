@@ -1,0 +1,98 @@
+body {
+margin: 0;
+font-family: Arial;
+background: #f4f6f9;
+color: #0b1f33;
+}
+
+header {
+background: #0b1f33;
+color: white;
+padding: 15px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav a {
+color: white;
+margin-left: 15px;
+text-decoration: none;
+}
+
+.hero {
+background: linear-gradient(90deg, #0b1f33, #143a63);
+color: white;
+text-align: center;
+padding: 70px 20px;
+}
+
+.info {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 30px;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.actions {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+padding: 30px;
+}
+
+.box {
+background: #0b1f33;
+color: white;
+padding: 20px;
+border-radius: 8px;
+}
+
+.box a {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 15px;
+background: #1e5aa8;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+form {
+max-width: 800px;
+margin: auto;
+padding: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+margin-top: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+width: 100%;
+padding: 12px;
+margin-top: 15px;
+background: #0b1f33;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #0b1f33;
+color: white;
+margin-top: 40px;
+}
